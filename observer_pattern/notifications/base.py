@@ -13,3 +13,8 @@ class Subject(ABC):
     def notify(self):
         for observer in self.observers:
             observer.update(self)
+
+class Observer(ABC):
+    @abstractmethod
+    def update(self,subject):
+        pass

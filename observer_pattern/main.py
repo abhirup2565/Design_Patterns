@@ -1,7 +1,8 @@
-from weather_station import WeatherStation
-from devices.phone_display import Phone_Display
-from devices.tv_display import TV_Display
-from devices.smartwatch_display import Smartwatch_Display
+from notifications import (WeatherStation,
+                           Phone_Display,
+                           TV_Display,
+                           Smartwatch_Display
+                           )
 
 if __name__ == "__main__":
     station = WeatherStation()

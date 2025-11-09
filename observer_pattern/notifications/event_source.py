@@ -1,4 +1,4 @@
-from subject import Subject
+from .base import Subject
 
 class WeatherStation(Subject):
     def __init__(self):
